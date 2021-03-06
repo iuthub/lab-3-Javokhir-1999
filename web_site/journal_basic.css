@@ -43,12 +43,26 @@ ul {
 	padding-left: 10px;
 	margin: 2px 10px 2px 5px;
 }
+
+.container div:hover{
+	border:2px solid yellow;
+}
 .container{
 	box-sizing: border-box;
 	overflow: hidden;
 	border: 10px solid #fff;
 	background: #fff;
 	margin: 10px 10% 0 10%;
+}
+.main{
+	display: flex;
+}
+.sideBar{
+	display: table;
+	border: 5px solid #009097;
+	margin: 10px 10px 0 0;
+	background: #99E0E0;
+	padding: 5px;
 }
 .header{
 	text-align: right;
